@@ -1,0 +1,33 @@
+body {
+	background-color: red;
+}
+
+h1  {
+	color:#fff;
+}
+
+h3  {
+	color:#000;
+}
+
+h4  {
+	color:green;
+	text-align:center;
+}
+
+p  {
+	color:#ccc;
+	text-align: center;
+}
+
+nav ul li{
+
+	display:inline-block;
+	margin-left: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Verdana;
+	
+}
