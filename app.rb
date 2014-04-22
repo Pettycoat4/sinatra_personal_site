@@ -1,11 +1,13 @@
 require 'sinatra'
+require 'sinatra/activerecord'
+require './models'
+
+
+set :database, "sqlite3:///iamadatabase.sqlite3"
 
 get '/' do 
-	erb :home
+	"Learning Activerecord"
+	
 end
 
-
-get '/anotherpage' do
-  erb :anotherpage
-end
 
